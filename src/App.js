@@ -1,6 +1,10 @@
+import 'normalize.css'
+import './style.scss';
+import styles from './style.module.scss';
+
 function App() {
   return (
-    <div>hello, Dell!</div>
+    <div className={styles.app}>hello, zhangzhengyang!</div>
   );
 }
 
